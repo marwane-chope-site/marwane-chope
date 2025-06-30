@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Marwane Chope</title>
   <style>
     body {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      font-family: sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
-    }
-    .container {
-      background-color: #0d1b2a;
-      padding: 40px;
-      border-radius: 10px;
-      text-align: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
-    .title {
-      color: #00f2aa;
-      font-size: 28px;
-      font-weight: bold;
+
+    .card {
+      background-color: #111c2b;
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     }
-    .button {
-      margin-top: 20px;
-      background-color: #00f2aa;
+
+    h1 {
+      color: #00f9c9;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.2rem;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
       color: black;
-      padding: 12px 24px;
+      background-color: #00f9c9;
       border: none;
-      border-radius: 25px;
-      font-size: 16px;
+      border-radius: 999px;
       cursor: pointer;
       text-decoration: none;
-      display: inline-block;
+      font-weight: bold;
     }
+
+    .btn:hover {
+      background-color: #00e0b0;
+    }
+
     .footer {
-      margin-top: 20px;
-      font-size: 12px;
-      color: #cccccc;
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 400px) {
+      .card {
+        padding: 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="title">Marwane Chope</div>
-    <p>أسرع و آمن وسيلة لشحن حسابك في<br><strong>Linebet و 1xBet</strong></p>
+  <div class="card">
+    <h1>Marwane Chope</h1>
+    <p>أسرع و آمن وسيلة لشحن حسابك في</p>
+    <p><strong>1xBet و Linebet</strong></p>
     <p>خدمة موثوقة، دعم فوري، أثمنة مناسبة</p>
-    <a class="button" href="https://wa.me/212611993291" target="_blank">تواصل معنا على واتساب 📱</a>
+    <a class="btn" href="https://wa.me/212611993291" target="_blank">تواصل معنا على واتساب 📱</a>
     <div class="footer">© Marwane Chope 2025 جميع الحقوق محفوظة</div>
   </div>
 </body>
 </html>
+
+
